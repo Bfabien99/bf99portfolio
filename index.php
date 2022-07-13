@@ -18,6 +18,13 @@ $router = new AltoRouter();
 
 # DEBUT DES ROUTES
 
+#for heroku
+$router->map('GET',"/",function()
+{   
+    $model = new PortfolioHomeController;
+    $model->index();
+});
+
 #Home
 $router->map('GET',"/myPorfolio/",function()
 {   
