@@ -37,7 +37,7 @@
     
             </div>
             <div class="m-2 md:w-1/3 md:m-0">
-                <i class="bi bi-linkedin"></i> <a href="www.linkedin.com/in/kouadio-fabien-brou" class="text-reset">www.linkedin.com/in/kouadio-fabien-brou</a>
+                <i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/kouadio-fabien-brou" class="text-reset" target="_blank">www.linkedin.com/in/kouadio-fabien-brou</a>
             </div>
         </div>
     </div>
