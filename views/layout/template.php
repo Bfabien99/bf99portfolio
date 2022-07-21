@@ -10,6 +10,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>BFABIEN99</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
     <style type="text/tailwindcss">
         @layer components {
             .btn-primary 
@@ -21,13 +26,13 @@
 </head>
 
 <body class="bg-gray-900 text-white text-center">
-    <header class="p-3 flex flex-col">
+    <header class="p-3 flex flex-col" id="home">
         <div class="banner flex justify-center p-2 text-2xl"><i class="bi bi-github"></i><h2>BFABIEN99</h2></div>
         <nav class="flex justify-center list-none">
-            <li class="p-2 hover:text-blue-400"><a  href=""><i class="bi bi-house px-1"></i><span>Home</span></a></li>
-            <li class="p-2 hover:text-blue-400"><a  href=""><i class="bi bi-book px-1"></i><span>About Me</span></a></li>
-            <li class="p-2 hover:text-blue-400"><a  href=""><i class="bi bi-briefcase px-1"></i><span>My Works</span></a></li>
-            <li class="p-2 hover:text-blue-400"><a  href=""><i class="bi bi-chat-right px-1"></i><span>Contacts</span></a></li>
+            <li class="p-2 hover:text-blue-400"><a  href="#home"><i class="bi bi-house px-1"></i><span>Home</span></a></li>
+            <li class="p-2 hover:text-blue-400"><a  href="#aboutme"><i class="bi bi-book px-1"></i><span>About Me</span></a></li>
+            <li class="p-2 hover:text-blue-400"><a  href="#myworks"><i class="bi bi-briefcase px-1"></i><span>My Works</span></a></li>
+            <li class="p-2 hover:text-blue-400"><a  href="#contact"><i class="bi bi-chat-right px-1"></i><span>Contacts</span></a></li>
         </nav>
     </header>
 

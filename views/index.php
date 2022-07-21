@@ -1,18 +1,51 @@
-<div id="home">
+<div id="homes" class="min-h-screen flex items-center gap-1 p-1 md:flex-nowrap flex-wrap">
+    <div class="text-left gap-4 ">
+        <h1 class="text-6xl my-1">Hello !</h1>
+        <h1 class="text-6xl my-2">My name is <span class="capitalize text-red-400">brou kouadio stephane fabien</span></h1>
+        <h1 class="text-6xl my-2">I am a <span class="uppercase text-red-400">php web developer</span></h1>
+
+        <code class="text-blue-300 text-2xl italic text-bold my-1"><?php echo htmlspecialchars('<?= Here is my portfolio ?>') ?></code>
+    </div>
+    
+    <img src="https://cdn.pixabay.com/photo/2013/07/12/16/35/php-151199_1280.png" alt="" class="w-1/2 h-96 md:block hidden">
+</div>
+
+<div id="aboutme" class="min-h-screen pt-3 bg-white">
 
 </div>
 
-<div id="aboutme">
+<div id="myworks" class="bg-slate-50 text-gray-900 min-h-screen pt-3">
+    <h1 class="my-3 text-3xl">My Works</h1>
+    <div class="flex gap-5 md:gap-2 p-1 md:flex-nowrap flex-wrap">
+        <div class=" pb-3 flex flex-col gap-1 border">
+            <img src="https://cdn.pixabay.com/photo/2022/07/01/14/29/wheat-7295718__340.jpg" alt="photo" class="md:h-300px">
 
-</div>
+            <p class="text-light text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi minima laborum deleniti cupiditate tempora similique aperiam rerum rem velit.</p>
+            <a href="" class="btn-primary m-0.5 md:w-32 w-96 my-0 mx-auto">see more</a>
 
-<div id="myworks">
+        </div>
 
+        <div class=" pb-3 flex flex-col border">
+            <img src="https://cdn.pixabay.com/photo/2022/02/07/06/41/vietnam-6998583__340.jpg" alt="photo" class="md:h-300px">
+            
+            <p class="text-light text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi minima laborum deleniti cupiditate tempora similique aperiam rerum rem velit.</p>
+            <a href="" class="btn-primary m-0.5 md:w-32 w-96 my-0 mx-auto">see more</a>
+            
+        </div>
+
+        <div class=" pb-3 flex flex-col border">
+            <img src="https://cdn.pixabay.com/photo/2022/07/07/13/57/stones-7307274__340.jpg" alt="photo" class="md:h-300px">
+           
+            <p class="text-light text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex modi minima laborum deleniti cupiditate tempora similique aperiam rerum rem velit.</p>
+            <a href="" class="btn-primary m-0.5 md:w-32 w-96 my-0 mx-auto">see more</a>
+            
+        </div>
+    </div>
 </div>
 
 <hr class="w-100">
 
-<div id="contact">
+<div id="contact" class="min-h-screen pt-3">
 
     <div class="text-center my-2">
         <h4 class="underline my-3 text-lg">How you can join me</h4>
